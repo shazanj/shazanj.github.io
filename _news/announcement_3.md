@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-05-01 08:00:00-0600
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Joined **[GoDaddy Inc.](https://www.godaddy.com/)** as Senior Machine Learning Scientist in Vancouver, Canada. Received the **Innovation Award** at GoDaddy in 2022.

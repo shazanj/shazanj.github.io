@@ -2,28 +2,26 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Alberta Machine Intelligence Institute</a>. <a href="#">Unversity of Alberta</a>
+description: Senior Applied Scientist + AI Tech Lead at <a href="https://www.diligent.com/">Diligent Inc.</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Edmonton AB Canada</p>
+    <p>Vancouver, BC Canada</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
-Shazan is a Lead ML Scientist at [Alberta Machine Intelligence Institute (AMII)](http://amii.ca) and an actively contributing researcher with [ANA (Automated Nursing Agent)](https://www.amii.ca/latest-from-amii/ana-automated-nursing-agent) Research Team at [University of Alberta](https://ualberta.ca) to build emotionally aware conversational agents.
+Shazan is a Senior Applied Scientist and AI Tech Lead at [Diligent Inc.](https://www.diligent.com/) in Vancouver, Canada. He has 8+ years of experience delivering large-scale ML, NLP, and Generative AI systems across search, recommendation, and document intelligence. His work has driven 24% revenue lift, 30% conversion lift, and 35-50% workflow efficiency gains across enterprise AI services.
 
-In the past he has extensively worked on applying Machine Learning to address environmental public health issues such as understanding the impact of air pollution on children’s health. This joint research effort, done in collaboration with multidisciplinary researchers and knowledge users from several leading universities, research and health organizations across Canada, has been published in some key venues in Applied ML and public health domain.
+At Diligent, Shazan leads AI Research efforts for enterprise AI services deployed across 5 global regions, reducing LLM failure rates from 20%+ to <5%. He has improved platform-wide search service relevance using semantic retrieval and Reciprocal Rank Fusion (RRF), and developed a Vision-Language Model (VLM) based parser enabling asian language support from 0% to 100%.
 
-At Amii, most of Shazan’s domain focus had shifted to applying Machine Learning in Agriculture through his work with some Ag domain corporate partners of Amii . To that end he has a few years of experience ranging from carrying out hands-on research to advising on advanced research work in the AgTech field.
+Previously, Shazan was a Senior Machine Learning Scientist at [GoDaddy Inc.](https://www.godaddy.com/) where he developed contextual-bandit and deep learning recommendation systems driving significant revenue and conversion lift. Before that, he served as Lead ML Scientist at [Alberta Machine Intelligence Institute (Amii)](http://amii.ca), where he led a team of 4+ ML scientists across energy, agriculture, and healthcare applied ML projects, and provided ML advisory to 10+ industry partners.
 
-Given his current research focus in NLP, he also plays an advisory role with businesses with an interest in Natural Language Processing, Deep Learning and related technologies as well.
+Shazan is also the co-founder and AI lead of [BendAI](https://bendai.co), an LLM-powered software design "agent" using LLM reasoning and RAG over codebases and technical documents.
 
-Prior to his career in ML, Shazan also got first hand experience in building scalable, data driven, technology solutions for the food service industry at Sysco Labs, the innovation arm of the Sysco Corporation (NYSE:SYY).
+His core skills span LLMs, NLP, Search, Recommender Systems, Bandit Learning, Time Series, Predictive Modelling, and Graph Analysis. He works with Python, PyTorch, Keras-TensorFlow, LangChain, Transformers-HF, and LLM/Agentic workflows, deployed on AWS (SageMaker & Bedrock) and OpenSearch.
 
-His ML research interests include natural language processing, spatial data mining, and reinforcement learning. Currently, Shazan’s research work focuses on building better, emotionally-aware, conversational agents for elderly.
-
-Shazan received his Master of Science in Computing Science under the supervision of Dr. [Osmar R. Zaiane](http://webdocs.cs.ualberta.ca/~zaiane/) at the University of Alberta. He also holds a Bachelor of Science (Hons) degree in Computer Science as well.
+Shazan received his Master of Science in Computing Science (GPA: 4.0/4.0) under the supervision of Dr. [Osmar R. Zaiane](http://webdocs.cs.ualberta.ca/~zaiane/) at the [University of Alberta](https://ualberta.ca). He also holds a Bachelor of Science (Hons) in Computer Science (First Class) from the University of Colombo.

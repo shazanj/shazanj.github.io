@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Shazan
 middle_name: 
 last_name: Jabbar
-email: you@example.com
+email: shazanj@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Senior Applied Scientist + AI Tech Lead at <a href="https://www.diligent.com/">Diligent Inc.</a>
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -42,9 +42,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: shazanj
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: shazanjabbar
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -132,8 +132,8 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Jabbar
+  first_name: [Shazan, S.]
 
   style: apa
   locale: en

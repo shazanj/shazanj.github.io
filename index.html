@@ -1,251 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-  <title>Shazan Jabbar | Senior Applied Scientist + AI Tech Lead</title>
-  <meta name="description" content="Senior Applied Scientist with 8+ years delivering large-scale ML, NLP, and Generative AI systems.">
-  <meta name="keywords" content="Shazan Jabbar, Machine Learning, NLP, AI, LLM, Deep Learning, Recommender Systems, Search" />
+  <title>Shazan Jabbar</title>
+  <meta name="description" content="Senior Applied Scientist + AI Tech Lead. Building large-scale ML, NLP, and Generative AI systems.">
+  <meta name="keywords" content="Shazan Jabbar, Machine Learning, NLP, AI, LLM, Deep Learning" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css" />
 </head>
-
 <body>
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
-          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary"><span>Shazan Jabbar</span></h1>
-        <p>Senior Applied Scientist + AI Tech Lead based in Vancouver, Canada.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
-  </header>
 
-  <main role="main">
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="container">
+      <a href="#" class="nav__name">Shazan Jabbar</a>
+      <ul class="nav__links">
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="https://github.com/shazanj" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/shazanjabbar" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- Hero / Intro -->
+    <section class="hero">
+      <div class="hero__photo">
+        <img src="./images/prof_pic.jpg" alt="Shazan Jabbar" />
+      </div>
+      <div class="hero__text">
+        <h1>Shazan Jabbar</h1>
+        <p class="hero__subtitle">Senior Applied Scientist + AI Tech Lead</p>
+        <p>I work on bringing <strong>ML and AI systems into production</strong>. Currently at <a href="https://www.diligent.com/">Diligent Inc.</a> in Vancouver, where I lead AI research for enterprise services deployed globally.</p>
+        <p>Previously, I built recommendation systems at <a href="https://www.godaddy.com/">GoDaddy</a> and led applied ML projects at <a href="https://amii.ca">Amii</a> (Alberta Machine Intelligence Institute), advising startups and Fortune 100 companies on their ML strategy.</p>
+        <p>I'm also the co-founder of <strong>BendAI</strong>, an LLM-powered software design agent that reasons over codebases and technical documents.</p>
+        <p>I received my M.Sc. in Computing Science from the <a href="https://ualberta.ca">University of Alberta</a> (advised by <a href="http://webdocs.cs.ualberta.ca/~zaiane/">Prof. Osmar Zaiane</a>) and a B.Sc. (First Class Honours) from the University of Colombo.</p>
+        <div class="hero__links">
+          <a href="mailto:shazanj@gmail.com">Email</a>
+          <span class="sep">/</span>
+          <a href="https://github.com/shazanj" target="_blank">GitHub</a>
+          <span class="sep">/</span>
+          <a href="https://www.linkedin.com/in/shazanjabbar" target="_blank">LinkedIn</a>
+          <span class="sep">/</span>
+          <a href="https://scholar.google.com/citations?user=shazanj" target="_blank">Scholar</a>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Selected Publications -->
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ul class="publications">
+        <li>
+          <strong>DeepDup: Duplicate Question Detection in Community QA</strong><br>
+          <span class="pub__meta">First Author &mdash; ICDLT 2021</span><br>
+          Deep learning and transfer learning for duplicate detection in large-scale text corpora.
+        </li>
+        <li>
+          <strong>Systematic Review of ML for Air Pollution Epidemiology</strong><br>
+          <span class="pub__meta">Co-first-author &mdash; BMC Public Health 2017</span><br>
+          A systematic review of data mining and machine learning for air pollution epidemiology.
+        </li>
+        <li>
+          <strong>Co-location Pattern Mining for Spatial Data</strong><br>
+          <span class="pub__meta">First Author &mdash; JDSA 2018</span><br>
+          Discovering co-location patterns with aggregated spatial transactions and dependency rules.
+        </li>
+      </ul>
+    </section>
+
+    <hr />
 
     <!-- Experience -->
-    <section class="work" id="experience">
-      <div class="row">
-        <h2>Experience</h2>
-        <div class="work__boxes">
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="timeline">
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Diligent Inc.</h3>
-              <p><strong>Senior Applied Scientist / AI Tech Lead</strong> &mdash; Oct 2024 - Present</p>
-              <ul class="work__list">
-                <li>Led AI Research for enterprise AI services across 5 global regions, reducing LLM failure rates from 20%+ to &lt;5%</li>
-                <li>Improved platform-wide search relevance using semantic retrieval and Reciprocal Rank Fusion (RRF), boosting precision from 0.50 to 0.70+</li>
-                <li>Developed a Vision-Language Model (VLM) based parser enabling asian language support from 0% to 100%</li>
-                <li>Built LLM quality and reliability frameworks including hallucination tests, multilingual regression checks, and LLM-as-Judge</li>
-              </ul>
-            </div>
-            <div class="work__image-box">
-              <div class="work__badge">Vancouver, Canada</div>
-            </div>
+        <div class="timeline__item">
+          <div class="timeline__date">2024 &ndash; Present</div>
+          <div class="timeline__content">
+            <h3>Diligent Inc. <span class="timeline__location">Vancouver</span></h3>
+            <p class="timeline__role">Senior Applied Scientist / AI Tech Lead</p>
+            <p>Leading AI research for enterprise services across multiple global regions. My work focuses on improving LLM reliability, building search relevance systems using semantic retrieval and ranking fusion, and developing vision-language models for multilingual document understanding.</p>
           </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>GoDaddy Inc.</h3>
-              <p><strong>Senior Machine Learning Scientist</strong> &mdash; May 2022 - Sep 2024</p>
-              <ul class="work__list">
-                <li>Developed contextual-bandit and deep learning recommendation systems driving 24% revenue lift and 30% conversion lift</li>
-                <li>Designed statistical analysis for incremental impact of new ranking and exploration policies</li>
-                <li>Improved ML production reliability through drift monitoring, retraining triggers, and robust AWS deployment</li>
-              </ul>
-            </div>
-            <div class="work__image-box">
-              <div class="work__badge">Vancouver, Canada</div>
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Alberta Machine Intelligence Institute (Amii)</h3>
-              <p><strong>Lead ML Scientist</strong> &mdash; Jan 2021 - May 2022</p>
-              <ul class="work__list">
-                <li>Led a team of 4+ ML scientists across energy, agriculture, and healthcare applied ML projects</li>
-                <li>Advised a healthcare startup from a 2-person research project into an award-winning Health-Tech company</li>
-                <li>Guided the ML strategy of a Fortune 100 company with new high-signal latent variables</li>
-                <li>Provided ML advisory to 10+ industry partners</li>
-              </ul>
-            </div>
-            <div class="work__image-box">
-              <div class="work__badge">Edmonton, Canada</div>
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Alberta Machine Intelligence Institute (Amii)</h3>
-              <p><strong>Machine Learning Scientist</strong> &mdash; Jul 2018 - Dec 2020</p>
-              <ul class="work__list">
-                <li>ML research for anomaly detection, risk prediction, spatial, and environmental analytics in biotech, energy, and health</li>
-                <li>Built end-to-end ML prototypes from data ingestion to evaluation and handoff, enabling partner transitions from PoCs to production</li>
-                <li>Co-developed and delivered Amii's ML curriculum (Coursera specialization with 12k+ learners)</li>
-              </ul>
-            </div>
-            <div class="work__image-box">
-              <div class="work__badge">Alberta, Canada</div>
-            </div>
-          </div>
-
         </div>
+
+        <div class="timeline__item">
+          <div class="timeline__date">2022 &ndash; 2024</div>
+          <div class="timeline__content">
+            <h3>GoDaddy Inc. <span class="timeline__location">Vancouver</span></h3>
+            <p class="timeline__role">Senior Machine Learning Scientist</p>
+            <p>Built contextual-bandit and deep learning recommendation systems for GoDaddy's marketplace. Spent a lot of time thinking about exploration-exploitation tradeoffs, causal impact measurement, and keeping ML systems healthy in production through drift monitoring and automated retraining.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__date">2021 &ndash; 2022</div>
+          <div class="timeline__content">
+            <h3>Amii <span class="timeline__location">Edmonton</span></h3>
+            <p class="timeline__role">Lead ML Scientist</p>
+            <p>Led a team of ML scientists working with industry partners across energy, agriculture, and healthcare. Advised startups on their ML roadmaps (one of which grew into an award-winning Health-Tech company) and helped Fortune 100 companies integrate ML into their analytics strategy.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__date">2018 &ndash; 2020</div>
+          <div class="timeline__content">
+            <h3>Amii <span class="timeline__location">Alberta</span></h3>
+            <p class="timeline__role">Machine Learning Scientist</p>
+            <p>Research and applied ML across anomaly detection, risk prediction, and environmental analytics for partners in biotech, energy, and health. Built end-to-end prototypes and helped transition them from proof-of-concept to production. Also co-developed Amii's ML curriculum, which reached 12k+ learners on Coursera.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__date">2016 &ndash; 2018</div>
+          <div class="timeline__content">
+            <h3>University of Alberta <span class="timeline__location">Edmonton</span></h3>
+            <p class="timeline__role">Data Scientist</p>
+            <p>Built ML prototypes for environmental, epidemiological, and biological datasets. Worked closely with academic and industry collaborators on spatial data mining and predictive modeling.</p>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <!-- Skills -->
-    <section class="client" id="skills">
-      <div class="row">
-        <h2>Core Skills</h2>
-        <div class="skills__grid">
-          <div class="skill__category">
-            <h3>ML &amp; Science</h3>
-            <p>LLMs, NLP, Search, Recommender Systems, Bandit Learning, Time Series, Predictive Modelling, Graph Analysis</p>
+    <hr />
+
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__date">2014 &ndash; 2016</div>
+          <div class="timeline__content">
+            <h3>University of Alberta</h3>
+            <p>M.Sc. Computing Science (GPA: 4.0/4.0)<br>
+            <em>Thesis: Discovering Spatial Patterns using Statistically Significant Dependencies</em><br>
+            Advised by Prof. Osmar Zaiane</p>
           </div>
-          <div class="skill__category">
-            <h3>Engineering</h3>
-            <p>Python, PyTorch, Keras-TensorFlow, LangChain, Transformers-HF, LLM/Agentic workflows</p>
-          </div>
-          <div class="skill__category">
-            <h3>Cloud</h3>
-            <p>AWS (SageMaker &amp; Bedrock), OpenSearch</p>
-          </div>
-          <div class="skill__category">
-            <h3>Leadership</h3>
-            <p>Technical Strategy, Mentoring, Hiring, Roadmap Planning, Cross-functional Alignment</p>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__date">2009 &ndash; 2014</div>
+          <div class="timeline__content">
+            <h3>University of Colombo</h3>
+            <p>B.Sc. (Hons) Computer Science &mdash; First Class<br>
+            <em>Thesis: PageRank Based Core-Attachment Model to Detect Protein Complexes</em></p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Projects -->
-    <section class="work" id="projects">
-      <div class="row">
-        <h2>Projects</h2>
-        <div class="work__boxes">
-          <div class="work__box">
-            <div class="work__text">
-              <h3>BendAI (AI Software Architect)</h3>
-              <p><strong>Co-Founder / AI Lead</strong> &mdash; 2023 - 2024</p>
-              <ul class="work__list">
-                <li>Designed and developed an LLM-powered software design "agent" using LLM reasoning and RAG over codebases and technical documents</li>
-                <li>Developed multi-stage retrieval and planning pipelines enabling structured architecture outputs</li>
-                <li>Launched private beta with strong feedback from early adopters and VCs</li>
-              </ul>
-            </div>
-            <div class="work__image-box">
-              <div class="work__badge">Side Project</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <hr />
 
-    <!-- About -->
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <p>Senior Applied Scientist with 8+ years delivering large-scale ML, NLP, and Generative AI systems across search, recommendation, and document intelligence. Published in deep learning, NLP, and spatial/health analytics. Proven leader collaborating with engineering, product, and research stakeholders.</p>
-
-            <h3>Education</h3>
-            <p><strong>University of Alberta</strong> &mdash; M.Sc. Computing Science (GPA: 4.0/4.0), 2014 - 2016<br>
-            Thesis: <em>Discovering Spatial Patterns using Statistically Significant Dependencies</em> (Advised by Prof. Osmar Zaiane)</p>
-            <p><strong>University of Colombo</strong> &mdash; B.Sc. (Hons) Computer Science (First Class), 2009 - 2014<br>
-            Thesis: <em>PageRank Based Core-Attachment Model to Detect Protein Complexes by Analysing Protein Networks</em></p>
-
-            <h3>Awards</h3>
-            <ul class="work__list">
-              <li>Winner, Diligent HackFest &mdash; 2025</li>
-              <li>Innovation Award, GoDaddy &mdash; 2022</li>
-              <li>IEEE Healthcare Data Analytics Challenge Finalist &mdash; 2015</li>
-              <li>Best Research Paper, University of Colombo &mdash; 2014</li>
-              <li>Best Final Year CS Project, University of Colombo &mdash; 2013</li>
-              <li>Best Industry Performance in Computer Science &mdash; 2012</li>
-            </ul>
-          </div>
-
-          <div class="about__photo-container">
-            <img class="about__photo" src="./images/prof_pic.jpg" alt="Shazan Jabbar" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Publications -->
-    <section class="work" id="publications">
-      <div class="row">
-        <h2>Selected Publications</h2>
-        <div class="publications__list">
-          <div class="publication__item">
-            <h3>DeepDup: Duplicate Question Detection in Community QA</h3>
-            <p><strong>First Author</strong> &mdash; ICDLT 2021</p>
-            <p>Deep learning and transfer learning for duplicate detection in large-scale text corpora.</p>
-          </div>
-          <div class="publication__item">
-            <h3>Systematic Review of ML for Air Pollution Epidemiology</h3>
-            <p><strong>Co-first-author | Equal Contributors</strong> &mdash; BMC Public Health 2017</p>
-            <p>A systematic review of data mining and machine learning for air pollution epidemiology.</p>
-          </div>
-          <div class="publication__item">
-            <h3>Co-location Pattern Mining for Spatial Data</h3>
-            <p><strong>First Author</strong> &mdash; JDSA 2018</p>
-            <p>Discovering co-location patterns with aggregated spatial transactions and dependency rules.</p>
-          </div>
-        </div>
-      </div>
+    <!-- Awards -->
+    <section id="awards">
+      <h2>Awards</h2>
+      <ul class="awards__list">
+        <li><strong>Winner</strong>, Diligent HackFest &mdash; 2025</li>
+        <li><strong>Innovation Award</strong>, GoDaddy &mdash; 2022</li>
+        <li><strong>IEEE Healthcare Data Analytics Challenge Finalist</strong> &mdash; 2015</li>
+        <li><strong>Best Research Paper</strong>, University of Colombo &mdash; 2014</li>
+        <li><strong>Best Final Year CS Project</strong>, University of Colombo &mdash; 2013</li>
+        <li><strong>Best Industry Performance in Computer Science</strong> &mdash; 2012</li>
+      </ul>
     </section>
 
   </main>
 
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>Looking for an experienced AI/ML leader to help build intelligent systems? Have questions about LLMs, search, or recommendation systems? Feel free to reach out.</p>
-        <a href="mailto:shazanj@gmail.com" class="btn">shazanj@gmail.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://github.com/shazanj" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/shazanjabbar" title="Link to Linkedin Profile">
-            <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-      <p>&copy; 2025 Shazan Jabbar.</p>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Shazan Jabbar</p>
     </div>
   </footer>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
 </body>
-
 </html>
